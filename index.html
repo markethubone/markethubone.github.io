@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editable Image</title>
+    <style>
+        /* Style the container div */
+        .container {
+            position: relative;
+            width: 500px;
+            height: 300px;
+        }
+
+        /* Style the image */
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Style the text box */
+        .textbox {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Style the submit button */
+        .submit-button {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="your-image.jpg" alt="Editable Image" class="image">
+        <input type="text" id="editable-text" class="textbox" placeholder="Enter text">
+        <button class="submit-button" onclick="redirectToURL()">Submit</button>
+    </div>
+
+    <script>
+        function redirectToURL() {
+            const text = document.getElementById('editable-text').value;
+            const baseUrl = 'https://backoffice.markethubonline.com/EIPO/EIPOApply?ClientCode=';
+            const encodedText = encodeURIComponent(text);
+            const url = baseUrl + encodedText;
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
