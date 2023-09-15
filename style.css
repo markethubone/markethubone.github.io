@@ -1,0 +1,35 @@
+/* reset css */
+/* *{
+    background-color: blue;
+} */
+.logo{
+    height: 8vh;
+    width: 5.01vw;
+}
+.section{
+border: 2px solid #000080;
+border-radius: 15px;
+display: flex;
+padding: 2%;
+box-shadow: 3px 3px 5px 6px #ccc;
+}
+.btn {
+    background-color: #000080;
+    box-shadow: 0 8px 6px -6px black;
+  
+}
+
+.btn:hover{
+    background-color: #00136d;
+    
+}
+
+.brand{
+    color: #000080;
+}
+.note{
+    display: flex;
+    justify-content: center;
+    color:  red;
+    text-align-last: center;
+}
