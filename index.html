@@ -10,20 +10,48 @@
 </head>
 
 <body>
-  <section class="text-gray-600 body-font bg">
-    <div class="container mx-auto flex flex-col px-5 pt-24 justify-center items-center">
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center  mb-4 md:mb-0">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+          <!-- <img src="your-image.png" alt="" class="logo"> -->
+        <!-- </svg> -->
+        <!-- <span class="ml-3 text-xl brand">Market-Hub</span> -->
+      </a>
+      <!-- <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900">First Link</a>
+        <a class="mr-5 hover:text-gray-900">Second Link</a>
+        <a class="mr-5 hover:text-gray-900">Third Link</a>
+        <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+      </nav> -->
+      <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button> -->
+    </div>
+  </header>
+
+  <section class="text-gray-600 body-font bg ">
+    <div class="container mx-auto flex flex-col px-5 pt-5 justify-center items-center  ">
       <!-- <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="your-image.png"> -->
-      <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Market-Hub Stock Broking </h1>
+      <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center section ">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+
+        </svg>        
+
+        <h1 class="title-font sm:text-4xl text-2xl mb-4 font-medium brand "> Market-Hub Stock Broking </h1>
         <p class="mb-8 leading-relaxed"><b>Member :- </b> NSE, BSE, CDSL, MCX, NSE-CD </p>
+        <p class="mb-5 leading-relaxed"><b>Enter Your Client Code for IPO Apply </b>  </p>
         <div class="flex w-full justify-center items-end">
           <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
             <label for="hero-field" class="leading-7 text-sm text-gray-600"></label>
-            <input type="text" id="hero-field" name="hero-field"
-              class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            <input type="text" id="hero-field" name="hero-field" 
+              class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="EX:HO001">
           </div>
           <button
-            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg "
+            class="btn inline-flex text-white border-0 py-2 px-6 focus:outline-none  rounded text-lg "
             onclick="redirectToURL()">Submit</button>
         </div>
         <!-- <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p> -->
@@ -45,9 +73,14 @@
         </button>
       </div> -->
       </div>
+      
+      </div>
+      
     </div>
   </section>
-
+<div class="notes p-5">
+  <p class="note">*Investment in securities market are subject to market risks, read all the related documents carefully before Investing.</p>
+</div>
   <section>
     <h1 class="title-font justify-center flex sm:text-4xl text-3xl mb-4 font-medium text-gray-900">How to Apply IPO
     </h1>
@@ -63,7 +96,7 @@
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full btn inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -81,7 +114,7 @@
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full btn inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -99,7 +132,7 @@
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full btn inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -117,7 +150,7 @@
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
             </div>
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full btn inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -132,7 +165,7 @@
           </div>
           <div class="flex relative">
             <div
-              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              class="flex-shrink-0 w-10 h-10 rounded-full btn inline-flex items-center justify-center text-white relative z-10">
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -147,7 +180,6 @@
           </div>
         </div>
         <!-- <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step"> -->
-      </div>
     </div>
   </section>
   <script>
@@ -167,5 +199,4 @@
 
   </script>
 </body>
-
 </html>
