@@ -44,17 +44,30 @@
         </svg>        
 
         <h1 class=" sm:text-4xl text-2xl mb-4 font-medium brand "> Market-Hub Stock Broking </h1>
-        <!-- <p class="mb-8 leading-relaxed"><b>Member :- </b> NSE, BSE, CDSL, MCX, NSE-CD </p> -->
         <p class="mb-5 leading-relaxed"><b>Enter Your Client Code for IPO Apply </b>  </p>
+
+        <div class="form-control">
+          <input type="text" required="" id="hero-field" name="hero-field">
+          <label>
+              <span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">n</span><span style="transition-delay:100ms">t</span><span style="transition-delay:150ms">e</span><span style="transition-delay:200ms">r</span><span style="transition-delay:250ms">c</span><span style="transition-delay:300ms">o</span><span style="transition-delay:350ms">d</span><span style="transition-delay:350ms">e</span>
+          </label>
+      </div>
+
+
+        <!-- <p class="mb-8 leading-relaxed"><b>Member :- </b> NSE, BSE, CDSL, MCX, NSE-CD </p> -->
         <div class="flex w-full justify-center items-end">
-          <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+          <!-- <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
             <label for="hero-field" class="leading-7 text-sm text-gray-600"></label>
             <input type="text" id="hero-field" name="hero-field" 
               class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="EX:HO001">
-          </div>
-          <button
-            class="btn inline-flex text-white border-0 py-2 px-6 focus:outline-none  rounded text-lg "
-            onclick="redirectToURL()">Submit</button>
+          </div> -->
+
+          <button class="button  flex justify-center"  onclick="redirectToURL()"> Get in touch
+          </button>
+
+          <!-- <button
+            class="btn flex justify-center py-2 px-6 focus:outline-none  rounded text-lg "
+            onclick="redirectToURL()">Submit</button> -->
         </div>
         <!-- <p class="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p> -->
         <!-- <div class="flex">
@@ -184,6 +197,13 @@
         <!-- <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step"> -->
     </div>
   </section>
+
+<div class="map flex justify-center">
+<img src="formate.jpeg" alt="404">
+</div>
+
+
+
   <script>
     function redirectToURL() {
       const text = document.getElementById('hero-field').value;
